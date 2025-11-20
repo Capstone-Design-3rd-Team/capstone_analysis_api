@@ -1,0 +1,19 @@
+# 파이썬 관련 캐시 및 불필요한 파일
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+app.py
+# 임시 파일 및 결과물
+temp/
+results/
+
+
+# 로컬 Windows용 Tesseract 실행 파일 제외
+# 이 항목은 로컬에 있는 tesseract.exe 파일이 Docker 이미지에 복사되는 것을 방지합니다.
+Tesseract-OCR/tesseract.exe
+
+# 기타 불필요한 디렉토리 (만약 있다면)
+# chromedriver-win64/
+# metadata/
+# webui/
